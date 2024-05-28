@@ -1,0 +1,99 @@
+body{
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 6px solid black;
+    border-radius: 25px;
+    width: 120vh;
+    margin: 50px auto;
+    
+    
+}
+.color{
+    background-color: #b4c9d3;
+    max-height: 125vh;
+    border-radius: 20px;
+}
+.lagos{
+    background-image: url(lagos.jpg);
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    background-position: 100%;
+    padding-top: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.h1heading{
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    margin:100px auto 0;
+    padding-bottom: 10px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+}
+.pheading{
+    background-color: black;
+    color: whitesmoke;
+    width: 500px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.h32{
+    text-align: center;
+}
+h4, p{
+    font-family: sans-serif;
+}
+.img{
+    width: 120px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#img2{
+    width: 80px;
+    border-radius: 50px;
+    margin: 0;
+
+}
+.one{
+    font-size: 10px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex: auto;
+    text-align: center;
+}
+.pp{
+    margin-top: 20px;
+}
+#img3{
+    width: 180px;
+    background-position: 100%;
+    border-radius: 10px;
+}
+.me{
+    margin: 20px;
+}
+.flexx{
+    font-family: "happy monkey";
+    width: 400px;
+    margin: 20px auto;
+    padding:2px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(143, 164, 179);
+    border-radius: 5px;
+    border-bottom: 4px solid darkslategrey;
+
+}
+.italic{
+    font-style: italic;
+    font-family: "happy monkey";
+}
+
+

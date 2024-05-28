@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en" data-arp-injected="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML &amp; CSS</title>
+    
+    <link rel="stylesheet" href="./avatar game card_files/style.css">
+</head>
+
+
+    <body>
+        <h1>Choose your Favourite Character</h1>
+        <div class="container">
+            <div class="column aang card border-blue">
+                <img src="./avatar game card_files/Avatar_Aang-removebg-preview.png" class="border-blue">
+                <div class="border-blue aangg">
+                    <h2>Avatar Aang</h2>
+                    <p>The Avatar</p>
+                    <h4>Air Nomads</h4> 
+                    <button><a href="http://127.0.0.1:5500/two.html" target="_blank">Select</a></button>
+                </div>
+            </div>
+            <div class="column card border-blue">
+                <img src="./avatar game card_files/Toph-removebg-preview.png" class="border-blue">
+                <div class="border-blue">
+                    <h2>Toph Beifong</h2>
+                    <p>An Earth Bender</p>
+                    <h4>Earth Kingdom</h4> 
+                    <button><a href="http://127.0.0.1:5500/two.html" target="_blank">Select</a></button>
+                </div>
+            </div>
+            <div class="column sokka card border-blue">
+                <img src="./avatar game card_files/sokka-removebg-preview.png" class="border-blue">
+                <div class="border-blue">
+                    <h2>Sokka</h2>
+                    <p>The Boomerang Guy</p>
+                    <h4>Water Tribe</h4>
+                    <button><a href="http://127.0.0.1:5500/two.html" target="_blank">Select</a></button>
+                </div>
+            </div>
+            <div class="column azula card border-blue">
+                <img src="./avatar game card_files/azula__png-removebg-preview.png" class="border-blue azulaa">
+                <div class="border-blue">
+                    <h2>Azula</h2>
+                    <p>A Lightning Bender</p>
+                    <h4>Fire Nation</h4>
+                    <button><a href="http://127.0.0.1:5500/two.html" target="_blank">Select</a></button>
+                </div>
+            </div>
+            <div class="column kitara card border-blue">
+                <img src="./avatar game card_files/kitara-removebg-preview.png" class="border-blue">
+                <div class="border-blue">
+                    <h2>Kitara</h2>
+                    <p>A Water Bender</p>
+                    <h4>Water Tribe</h4>
+                    <button><a href="http://127.0.0.1:5500/two.html" target="_blank">Select</a></button>
+                </div>
+            </div>
+            <div class="column zuko card border-blue">
+                <img src="./avatar game card_files/png-clipart-zuko-aang-cosplay-costume-nickelodeon-aang-fictional-character-cartoon-removebg-preview.png" class="border-blue">
+                <div class="border-blue">
+                    <h2>Zuko</h2>
+                    <p>A Fire Bender</p>
+                    <h4>Fire Nation</h4> 
+                    <button><a href="http://127.0.0.1:5500/two.html" target="_blank">Select</a></button>
+                </div>
+            </div>
+        </div> 
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

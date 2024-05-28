@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(41, 35, 35);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+img{
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    background-color: #5c1411;
+    margin: 0 0 10px 0;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column{
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.column img{
+    height: auto;
+}
+
+.card{
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: forestgreen;
+    border-bottom: 8px solid darkgreen;
+    box-shadow: 0 4px 8px limegreen;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px gray;
+}
+
+.border-blue{
+    justify-content: space-around;
+}
+
+
+.sokka{
+    margin-top: 10px;
+    background-color: rgb(40, 138, 170);
+    border-bottom: 8px solid rgb(9, 82, 110);
+    box-shadow: 0 4px 8px rgb(93, 198, 233)
+}
+
+.azula{
+    margin-top: 10px;
+    background-color: rgb(44, 2, 2);
+    border-bottom: 8px solid rgb(10, 1, 1);
+    box-shadow: 0 4px 8px rgb(107, 17, 17)
+}
+
+.azulaa{
+    width: 200px;
+}
+.kitara{
+    margin-top: 10px;
+    background-color: rgb(5, 78, 112);
+    border-bottom: 8px solid rgb(2, 30, 41);
+    box-shadow: 0 4px 8px rgb(106, 138, 226)
+}
+
+.aang{
+    margin-top: 10px;
+    background-color: rgba(228, 107, 30, 1);
+    border-bottom: 8px solid rgb(104, 43, 6);
+    box-shadow: 0 4px 8px orangered
+}
+
+.aangg{
+    width: 200px;
+}
+
+.zuko{
+    margin-top: 10px;
+    background-color: #5c1411;
+    border-bottom: 8px solid rgb(27, 1, 1);
+    box-shadow: 0 4px 8px rgb(204, 49, 49)
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(32, 4, 5);
+    color: black;
+}
+
+
+
+
+
+
+
